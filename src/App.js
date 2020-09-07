@@ -59,7 +59,7 @@ function App() {
       <div className="flex lg:space-x-6 lg:flex-row lg:justify-start flex-col justify-center lg:items-center space-y-6">
         <Card website="https://www.paradise.gg/" title="Paradise.gg">
           <p className="text-lg w-full">
-            Collaborated with client to develop full-stack for an in-game
+            Collaborated with client to develop full-stack web application for an in-game
             marketplace. Utilized React to apply custom hooks and reusable
             assets. Utilized MVC architecture to write program with emphasis on
             security and maintainability. Wrote back-end using Node and Express;
