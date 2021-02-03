@@ -1,5 +1,11 @@
 import React from "react";
-import Card from "./components/Card";
+import Card from "./components/Card/Card";
+import CardText from "./components/Card/CardText";
+import Links from "./components/Card/Links";
+import Title from "./components/Card/Title";
+import mmmp from "./images/mmmp.png";
+import paradiseLogo from "./images/paradise.png";
+import shouldI from "./images/shouldi.png";
 import "./styles/index.css";
 
 function App() {
@@ -57,29 +63,63 @@ function App() {
       </p>
       <h2 className="font-semibold text-4xl mt-12 mb-4">Experience</h2>
       <div className="flex lg:space-x-6 lg:flex-row lg:justify-start flex-col justify-center lg:items-center space-y-6">
-        <Card website="https://www.paradise.gg/" title="Paradise.gg">
-          <p className="text-lg w-full">
+        <Card>
+          <Title title="MyMacroMealPlans">
+            <img
+              className="h-20 w-20 object-contain"
+              src={mmmp}
+              alt="cute pineapple flexing"
+            />
+          </Title>
+          <CardText>
+            Launched my own SaaS. Providing User's with the tools to ease the
+            process of meal plan creation, with one of the key features being a
+            recipe parsing algorithm to gather macro nutrient information on
+            said recipe and adjust values as needed. Landing page utilizes
+            React, Next.js for improved SEO, and Tailwindcss for styling.
+          </CardText>
+          <Links website="https://www.mymacromealplans.com" />
+        </Card>
+        <Card>
+          <Title title="Paradise.gg">
+            <img
+              className="h-20 w-20 object-contain"
+              src={paradiseLogo}
+              alt="beach with purple sky and palm trees"
+            />
+          </Title>
+          <CardText>
             Collaborated with client to develop full-stack for an in-game
             marketplace. Utilized React to apply custom hooks and reusable
             assets. Utilized MVC architecture to write program with emphasis on
             security and maintainability. Wrote back-end using Node and Express;
             applied JWTs and custom middleware to facilitate authentication as
             well as create, distribute, and verify tokens.
-          </p>
+          </CardText>
+          <Links website="https://www.paradise.gg/" />
         </Card>
-        <Card
-          title="ShouldI"
-          code="https://github.com/LucasAlley/ShouldI"
-          website="https://www.shouldi.so/"
-        >
-          <p className="text-lg w-full">
+
+        <Card>
+          <Title title="ShouldI">
+            <img
+              className="h-20 w-20 object-contain"
+              src={shouldI}
+              alt="cute pineapple flexing"
+            />
+          </Title>
+          <CardText>
             Developed front-end and back-end features to create an anonymous
             message board. Constructed API with MVC architecture and security
             best practices. Utilized React and tailwindsCSS to facilitate
             front-end features with streamline code and optimized design;
             developed back-end features using Node and Express, integrating
             database functionality through MONGO.
-          </p>
+          </CardText>
+          <Links
+            isPublic
+            website="https://www.shouldi.so/"
+            projectName="ShouldI"
+          />
         </Card>
       </div>
     </div>
