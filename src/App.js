@@ -88,13 +88,14 @@ function App() {
               alt="beach with purple sky and palm trees"
             />
           </Title>
+
           <CardText>
-            Collaborated with client to develop full-stack for an in-game
-            marketplace. Utilized React to apply custom hooks and reusable
-            assets. Utilized MVC architecture to write program with emphasis on
-            security and maintainability. Wrote back-end using Node and Express;
-            applied JWTs and custom middleware to facilitate authentication as
-            well as create, distribute, and verify tokens.
+            Collaborated with client to develop full-stack web application for
+            an in-game marketplace. Utilized React to apply custom hooks and
+            reusable assets. Utilized MVC architecture to write program with
+            emphasis on security and maintainability. Wrote back-end using Node
+            and Express; applied JWTs and custom middleware to facilitate
+            authentication as well as create, distribute, and verify tokens.
           </CardText>
           <Links website="https://www.paradise.gg/" />
         </Card>
