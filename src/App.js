@@ -72,7 +72,7 @@ function App() {
             />
           </Title>
           <CardText>
-            Launched my own SaaS. Providing User's with the tools to ease the
+            Launched my own PaaS. Providing User's with the tools to ease the
             process of meal plan creation, with one of the key features being a
             recipe parsing algorithm to gather macro nutrient information on
             said recipe and adjust values as needed. Landing page utilizes
